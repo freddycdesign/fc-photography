@@ -3,19 +3,18 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    border:1px solid red;
 }
-
 html {
-    background-color: #1d1d1d;
+    background-color:black;
 }
 
-body {
-    background-color: black;
-}
+
+
 
 header {
     background-color: black;
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: center;
 }
@@ -24,9 +23,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1600px;
-    margin-left: 24px;
-    margin-right: 24px;
+    width: 1820px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #logo {
@@ -34,17 +33,18 @@ header {
     margin-top: 20px;
 }
 
-#hero {
-    display: flex;
-    background-color: black;
-
+.hero-image {
+    width: 100%; /* Ensure the hero image fills its container */
+    max-width:1920px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: hidden; /* Hide any overflow */
 }
 
-#hero-img {
-    width: 100%;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+.hero-image img {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline spacing */
 }
 
 nav {
@@ -58,17 +58,8 @@ li {
     list-style: none;
 }
 
-#container-top {
-    height: 1500px;
-}
 
-.container-width {
-    height:540px;
-    padding-top: 200px;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 h1 {
     margin-left:auto;
