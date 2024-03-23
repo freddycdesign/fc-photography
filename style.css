@@ -3,10 +3,10 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    border:1px solid red;
 }
+
 html {
-    background-color:black;
+    background-color: black;
 }
 
 header {
@@ -20,9 +20,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px; /* Adjust padding instead of margin for responsive design */
-    max-width: 1820px; /* Set a maximum width to prevent the header from stretching too wide */
-    width: 100%; /* Make the header fill the width of its container */
+    padding: 0 30px;
+    /* Adjust padding instead of margin for responsive design */
+    max-width: 1820px;
+    /* Set a maximum width to prevent the header from stretching too wide */
+    width: 100%;
+    /* Make the header fill the width of its container */
     margin-left: auto;
     margin-right: auto;
 }
@@ -32,18 +35,18 @@ header {
     margin-top: 20px;
 }
 
-.hero-image {
-    display:block;
-    max-width:1920px;
-    width: 100%; /* Ensure the hero image fills its container */
-    height:auto;
-    margin-left:auto;
-    margin-right:auto;
-    overflow: hidden; /* Hide any overflow */
+.hero-container {
+    display: block;
+    max-width: 1920px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.hero-image img {
-    width:100%;
+.hero-image {
+    overflow: hidden;
+    /* Hide any overflow */
+    width: 100%;
 }
 
 nav {
@@ -59,21 +62,21 @@ li {
 
 
 h1 {
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:10px;
-    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 800px;
     font-size: 60px;
-    text-align:center;
+    text-align: center;
     color: white;
 }
 
 p {
-    line-height:24px;
-    margin-left:auto;
-    margin-right:auto;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
-text-align:center;
-    font-size:20px;
+    text-align: center;
+    font-size: 20px;
     width: 740px;
 }
