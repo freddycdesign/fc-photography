@@ -110,7 +110,7 @@ li {
     display: flex;
     flex-direction: column;
     position: absolute;
-    padding-top: 10%;
+    top: 20%;
     padding-left: 10%;
 }
 
@@ -192,7 +192,7 @@ button {
 
 #illest-carousel {
     width: 100%;
-    height: 340px;
+    height: 380px;
     background-color: black;
     display: flex;
     flex-wrap: nowrap;
@@ -206,4 +206,18 @@ button {
     width: 400px;
     height: auto;
     border-radius: 10px;
+}
+
+.arrow-left {
+    font-size: 60px;
+    color: #FF3928;
+    position: absolute;
+    left: 2%;
+}
+
+.arrow-right {
+    font-size: 60px;
+    color: #FF3928;
+    position: absolute;
+    right: 2%;
 }
