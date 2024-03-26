@@ -199,9 +199,10 @@ button {
     justify-content: center;
     gap: 20px;
     align-items: center;
+    overflow: hidden;
 }
 
-.illest-carousel {
+.illest-carousel-images {
     width: 400px;
     height: auto;
     border-radius: 10px;
