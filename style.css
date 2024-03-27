@@ -199,7 +199,6 @@ button {
 #illest-carousel {
     width: 100%;
     height: 380px;
-    background-color: black;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -228,6 +227,44 @@ button {
     right: 2%;
 }
 
+#illest-card-container {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #1f1f1d;
+    height: auto;
+    border-left: 15px solid #FF3928;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#illest-card-text {
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+#illest-portrait {
+    width: 500px;
+    height: auto;
+}
+
+.h3-card {
+    color: #FF3928;
+    margin-left: 0px;
+}
+
+.h1-card {
+    width: 600px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.p-card {
+    width: 600px;
+    text-align: left;
+}
+
 @media (max-width: 905px) {
     h1 {
         font-size: 66px;
@@ -237,7 +274,7 @@ button {
 
     #h1-hero {
         width: 540px;
-        margin-bottom:12px;
+        margin-bottom: 12px;
     }
 
     h3 {
@@ -250,7 +287,7 @@ button {
         font-size: 16px;
         line-height: 26px;
         width: 540px;
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
 
     p {
@@ -287,32 +324,33 @@ button {
 
     .h1-intro {
         width: 600px;
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: auto;
+        margin-right: auto;
     }
-    
+
     .p-intro {
         width: 600px;
         margin-left: auto;
         margin-right: auto;
-        margin-top:10px;
+        margin-top: 10px;
     }
-    
+
     .h3-intro {
-        padding-bottom:10px;
-        width:190px;
+        padding-bottom: 10px;
+        width: 190px;
         height: 38px;
         margin-bottom: 10px;
         background-color: #FF3928;
-    
+
     }
+
     .arrow-left {
         font-size: 60px;
         color: #FF3928;
         position: absolute;
         left: 2%;
     }
-    
+
     .arrow-right {
         font-size: 60px;
         color: #FF3928;
@@ -328,6 +366,6 @@ button {
         height: 440px;
         text-align: center;
         margin-top: 50px;
-    
+
     }
 }
