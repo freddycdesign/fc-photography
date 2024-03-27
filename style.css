@@ -1,8 +1,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .teko-light {
@@ -75,15 +75,14 @@ header {
 
 .hero-container {
     display: flex;
-    max-width: 1980px;
-    height: auto;
+    max-width: 1920px;
+    max-height: 1146px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
-.hero-image {
-    overflow: hidden;
-    /* Hide any overflow */
+.hero-container img {
     width: 100%;
 }
 
@@ -105,13 +104,11 @@ li {
     text-align: left;
 }
 
-
-#overlay-text {
-    display: flex;
-    flex-direction: column;
+.hero-container .overlay-text {
     position: absolute;
-    top: 20%;
-    padding-left: 10%;
+    top: 50%;
+    left: 260px;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
