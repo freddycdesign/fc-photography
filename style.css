@@ -41,7 +41,7 @@
 }
 
 html {
-    background-color: black;
+    background-color: #0f0f0f;
 }
 
 body {
@@ -53,7 +53,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #0f0f0f;
     height: 40px;
     display: flex;
     justify-content: center;
