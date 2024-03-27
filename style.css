@@ -136,8 +136,8 @@ h3 {
     font-size: 34px;
     color: white;
     line-height: 44px;
-    margin-bottom:5px;
-    margin-left:6px;
+    margin-bottom: 5px;
+    margin-left: 6px;
 }
 
 p {
@@ -145,7 +145,7 @@ p {
     text-align: center;
     font-size: 22px;
     line-height: 34px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 #hero-paragraph {
@@ -226,4 +226,59 @@ button {
     color: #FF3928;
     position: absolute;
     right: 2%;
+}
+
+@media (max-width: 905px) {
+    h1 {
+        font-size: 66px;
+        line-height: 66px;
+        margin: 0;
+    }
+
+    #h1-hero {
+        width: 540px;
+    }
+
+    h3 {
+        font-size: 26px;
+        width: 540px;
+    }
+
+    #hero-paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        width: 540px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+    .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        color: white;
+    }
+
+    button {
+        width: 100px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-top: 10px;
+        margin-right: 10px;
+        background-color: rgba(255, 255, 255, 0.325);
+        border: 0px;
+        border-radius: 6px;
+    }
+
+    .hero-container .overlay-text {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 400px;
+    }
 }
