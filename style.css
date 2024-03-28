@@ -36,7 +36,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 34px;
+    font-size: 24px;
     color: white;
 }
 
@@ -66,7 +66,7 @@ header {
     align-items: center;
     padding: 0 30px;
     /* Adjust padding instead of margin for responsive design */
-    max-width: 1820px;
+    max-width: 1250px;
     /* Set a maximum width to prevent the header from stretching too wide */
     width: 100%;
     /* Make the header fill the width of its container */
@@ -112,17 +112,17 @@ li {
 
 .hero-container .overlay-text {
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
-    margin-left: 460px;
+    margin-left: 540px;
 }
 
 h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
-    font-size: 88px;
-    line-height: 88px;
+    font-size: 68px;
+    line-height: 68px;
     text-align: center;
     color: white;
 }
@@ -133,9 +133,9 @@ h2 {
 }
 
 h3 {
-    font-size: 34px;
+    font-size: 24px;
     color: white;
-    line-height: 44px;
+    line-height: 24px;
     margin-bottom: 5px;
     margin-left: 6px;
 }
@@ -143,25 +143,27 @@ h3 {
 p {
     color: white;
     text-align: center;
-    font-size: 22px;
-    line-height: 34px;
-    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
 }
 
 #hero-paragraph {
-    width: 720px;
+    width: 600px;
     text-align: left;
+    margin-left: 5px;
 }
 
 button {
-    width: 160px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-top: 20px;
-    margin-right: 20px;
+    width: 120px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 14px;
+    margin-right: 6px;
+    margin-left: 4px;
     background-color: rgba(255, 255, 255, 0.325);
     border: 0px;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 .intro-container {
@@ -169,18 +171,18 @@ button {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 550px;
+    height: 400px;
     text-align: center;
     margin-top: 50px;
 
 }
 
 .h1-intro {
-    width: 840px;
+    width: 620px;
 }
 
 .p-intro {
-    width: 800px;
+    width: 620px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -188,10 +190,12 @@ button {
 .h3-intro {
     margin-left: auto;
     margin-right: auto;
+    padding-top:2px;
     padding-left: 14px;
     padding-right: 14px;
-    height: 40px;
+    height: 24px;
     margin-bottom: 14px;
+    color:black;
     background-color: #FF3928;
 
 }
@@ -208,7 +212,7 @@ button {
 }
 
 .illest-carousel-images {
-    width: 400px;
+    width: 340px;
     height: auto;
     border-radius: 10px;
 }
@@ -217,18 +221,18 @@ button {
     font-size: 60px;
     color: #FF3928;
     position: absolute;
-    left: 2%;
+    left: 10%;
 }
 
 .arrow-right {
     font-size: 60px;
     color: #FF3928;
     position: absolute;
-    right: 2%;
+    right: 10%;
 }
 
 #illest-card-container {
-    width: 1160px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -245,7 +249,7 @@ button {
 }
 
 #illest-portrait {
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
