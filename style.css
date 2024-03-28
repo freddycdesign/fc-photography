@@ -41,13 +41,12 @@
 }
 
 html {
-    background-color: #0f0f0f;
+
 }
 
 body {
     display: flex;
     flex-direction: column;
-    max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -337,7 +336,11 @@ button {
 .p-card {
     text-align: left;
 }
-
+.black-container {
+    width: 100%;
+    height:auto;
+    background-color: #0f0f0f;
+}
 @media (max-width: 800px) {
     h1 {
         font-size: 46px;
