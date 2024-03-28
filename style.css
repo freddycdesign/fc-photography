@@ -190,12 +190,12 @@ button {
 .h3-intro {
     margin-left: auto;
     margin-right: auto;
-    padding-top:2px;
+    padding-top: 2px;
     padding-left: 14px;
     padding-right: 14px;
     height: 24px;
     margin-bottom: 14px;
-    color:black;
+    color: black;
     background-color: #FF3928;
 
 }
@@ -212,7 +212,7 @@ button {
 }
 
 .illest-carousel-images {
-    width: 340px;
+    width: 410px;
     height: auto;
     border-radius: 10px;
 }
@@ -221,36 +221,37 @@ button {
     font-size: 60px;
     color: #FF3928;
     position: absolute;
-    left: 10%;
+    left: 3%;
 }
 
 .arrow-right {
     font-size: 60px;
     color: #FF3928;
     position: absolute;
-    right: 10%;
+    right: 3%;
 }
 
 #illest-card-container {
-    width: 900px;
+    width: 1180px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     background-color: #1f1f1d;
-    height: auto;
     border-left: 15px solid #FF3928;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #illest-card-text {
-    margin-top: 120px;
-    margin-left: 60px;
+    margin-top: 90px;
+    margin-left: 50px;
+    width: 460px;
 }
 
 #illest-portrait {
-    width: 400px;
-    height: auto;
+    max-width: 560px;
 }
 
 .h3-card {
@@ -259,13 +260,11 @@ button {
 }
 
 .h1-card {
-    width: 600px;
     text-align: left;
     margin-left: 0;
 }
 
 .p-card {
-    width: 600px;
     text-align: left;
 }
 
