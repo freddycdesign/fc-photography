@@ -303,19 +303,19 @@ button {
 
 #personal-cards-container {
     background-color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #personal-cards {
-    width: 1080px;
+    width: 100%;
     height: auto;
     padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
     gap: 10px;
-    overflow: hidden;
+    margin-top: 40px;
+    justify-content: center;
 }
 
 .personal-card-images {
@@ -458,6 +458,4 @@ button {
         margin-top: 90px;
         margin-left: 50px;
     }
-
-    #illest-portrait {}
 }
