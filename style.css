@@ -240,6 +240,8 @@ button {
     right: 3%;
 }
 
+/*ILLEST CARD*/
+
 #illest-card-container {
     width:100%;
     height:600px;
@@ -264,6 +266,37 @@ button {
 }
 
 #illest-portrait {
+    max-width: 400px;
+    height:auto;
+}
+
+/*PERSONAL CARD*/
+
+#personal-card-container {
+    width:100%;
+    height:600px;
+    padding-top:50px;
+}
+
+#personal-card {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #1f1f1d;
+    border-right: 10px solid #FF3928;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#personal-card-text {
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right:50px;
+}
+
+#personal-portrait {
     max-width: 400px;
     height:auto;
 }
