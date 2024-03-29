@@ -40,10 +40,6 @@
     color: white;
 }
 
-html {
-
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -300,12 +296,6 @@ button {
     height: auto;
 }
 
-#personal-cards-container {
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #personal-cards {
     width: 100%;
     height: auto;
@@ -318,7 +308,7 @@ button {
 }
 
 .personal-card-images {
-    width: 520px;
+    width: 540px;
     height: auto;
     border-radius: 12px;
 }
