@@ -297,7 +297,9 @@ button {
 }
 
 #personal-cards {
-    width: 100%;
+    width: 97%;
+    margin-left:auto;
+    margin-right:auto;
     height: auto;
     padding-bottom: 40px;
     display: flex;
@@ -308,7 +310,8 @@ button {
 }
 
 .personal-card-images {
-    width: 540px;
+    flex: 1 1 auto;
+    width: 500px;
     height: auto;
     border-radius: 12px;
 }
