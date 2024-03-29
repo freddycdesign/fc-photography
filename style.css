@@ -61,7 +61,7 @@ header {
     align-items: center;
     padding: 0 30px;
     /* Adjust padding instead of margin for responsive design */
-    max-width: 1250px;
+    max-width: 1900px;
     /* Set a maximum width to prevent the header from stretching too wide */
     width: 100%;
     /* Make the header fill the width of its container */
@@ -326,11 +326,13 @@ button {
 .p-card {
     text-align: left;
 }
+
 .black-container {
     width: 100%;
-    height:auto;
+    height: auto;
     background-color: #0f0f0f;
 }
+
 @media (max-width: 800px) {
     h1 {
         font-size: 46px;
