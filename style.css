@@ -298,6 +298,7 @@ button {
 
 #personal-cards-top {
     width: 97%;
+    max-width:1920px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -310,6 +311,7 @@ button {
 
 #personal-cards-bottom {
     width: 97%;
+    max-width:1920px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -466,4 +468,8 @@ button {
         margin-top: 90px;
         margin-left: 50px;
     }
+}
+
+.mySlides {
+    display:none;
 }
