@@ -350,7 +350,7 @@ button {
 
 #hustle-card-container {
     display: flex;
-    width: 97%;
+    width: 94%;
     max-width: 1920px;
     margin: 40px;
     margin-left: auto;
@@ -362,7 +362,6 @@ button {
 .hustle-card {
     flex: 1 1 auto;
     width: 200px;
-    border-radius: 8px;
 }
 
 @media (max-width: 800px) {
