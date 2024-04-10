@@ -37,26 +37,34 @@
         </header>
 
         <div class="hero-container">
-            <img class="hero-image" src="assets/images/hero_1_large.jpg"
-                srcset="assets/images/hero_1_large_2x.jpg 2x, assets/images/hero_1_large.jpg 1x"
-                sizes="(max-width: 768px) 100vw, 1920px" alt="Hero Image">
-            <img class="hero-image mySlides" src="assets/images/hero_2_large.jpg"
-                srcset="assets/images/hero_2_large_2x.jpg 2x, assets/images/hero_2_large.jpg 1x"
-                sizes="(max-width: 768px) 100vw, 1920px" alt="Hero Image">
-            <img class="hero-image mySlides" src="assets/images/hero_3_large.jpg"
-                srcset="assets/images/hero_3_large_2x.jpg 2x, assets/images/hero_3_large.jpg 1x"
-                sizes="(max-width: 768px) 100vw, 1920px" alt="Hero Image">
-            <img class="hero-image mySlides" src="assets/images/hero_4_large.jpg"
-                srcset="assets/images/hero_4_large_2x.jpg 2x, assets/images/hero_4_large.jpg 1x"
-                sizes="(max-width: 768px) 100vw, 1920px" alt="Hero Image">
+            <div class="showSlide fade">
+                <img class="hero-image" src="assets/images/hero_1_large.jpg"
+                    srcset="assets/images/hero_1_large_2x.jpg 2x, assets/images/hero_1_large.jpg 1x"
+                    sizes="(max-width: 768px) 100vw, 1920px" alt="Hero Image">
+            </div>
+            <div class="showSlide fade">
+                <img class="hero-image" src="assets/images/hero_2_large.jpg"
+                    srcset="assets/images/hero_2_large_2x.jpg 2x, assets/images/hero_2_large.jpg 1x"
+                    sizes="(max-width: 768px) 100vw, 1920px" alt="Hero Image">
+            </div>
+            <div class="showSlide fade">
+                <img class="hero-image" src="assets/images/hero_3_large.jpg"
+                    srcset="assets/images/hero_3_large_2x.jpg 2x, assets/images/hero_3_large.jpg 1x"
+                    sizes="(max-width: 768px) 100vw, 1920px" alt="Hero Image">
+            </div>
+            <div class="showSlide fade">
+                <img class="hero-image" src="assets/images/hero_4_large.jpg"
+                    srcset="assets/images/hero_4_large_2x.jpg 2x, assets/images/hero_4_large.jpg 1x"
+                    sizes="(max-width: 768px) 100vw, 1920px" alt="Hero Image">
+            </div>
             <div class="overlay-text">
                 <h3 class="teko-semibold">PHOTOGRAPHY PORTFOLIO</h3>
                 <h1 class="teko-bold" id="h1-hero">ALL PHOTOS SHOT ON CANON REBEL T2I</h1>
                 <p class="poppins-regular" id="hero-paragraph">Back in 2016 while attending CSU East Bay, I borrowed my
                     sister’s camera for a school project. I never gave it back. Thanks Erica.</p>
                 <div id="hero-buttons">
-                    <button class=" poppins-bold">BACK</button>
-                    <button class=" poppins-bold">NEXT</button>
+                    <button class=" poppins-bold left" onclick="nextSlide(-1)">BACK</button>
+                    <button class=" poppins-bold right" onclick="nextSlide(1)">NEXT</button>
 
                 </div>
             </div>

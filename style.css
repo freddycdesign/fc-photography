@@ -40,6 +40,33 @@
     color: white;
 }
 
+.fade {
+    -webkit - animation - name: fade;
+    -webkit - animation - duration: 1.5s;
+    animation - name: fade;
+    animation - duration: 1.5s;
+}
+
+@-webkit - keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -83,7 +110,6 @@ header {
 }
 
 .hero-container {
-    display: flex;
     max-width: 1920px;
     max-height: 1146px;
     margin-left: auto;
@@ -92,6 +118,14 @@ header {
 }
 
 .hero-container img {
+    width: 100%;
+}
+
+.showSlide {
+    display: none;
+}
+
+.showSlide img {
     width: 100%;
 }
 
